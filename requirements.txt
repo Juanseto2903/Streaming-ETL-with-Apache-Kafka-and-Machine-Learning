@@ -1,0 +1,26 @@
+# Python 3.12
+# Pinned versions for reproducibility (installed and verified on Python 3.12.10)
+
+# Data and EDA
+pandas==2.3.3
+numpy==2.5.4
+
+# Modeling
+scikit-learn==1.9.1
+joblib==1.6.0
+
+# notebooks and visualizations
+jupyterlab==4.6.5
+matplotlib==3.11.2
+seaborn==0.13.2
+
+# Streaming (decision D2: confluent-kafka)
+confluent-kafka==2.16.1
+
+# Database (MySQL 8)
+pymysql==1.2.3
+cryptography==50.0.2
+sqlalchemy==2.0.57
+
+# Configuration via .env
+python-dotenv==1.2.4

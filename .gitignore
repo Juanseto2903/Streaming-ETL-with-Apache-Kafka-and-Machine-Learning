@@ -1,0 +1,31 @@
+# --- Secrets / environment ---
+.env
+.env.local
+.env.*.local
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- Docker (named volumes live outside the repo; guard against bind-mounted data) ---
+data/docker/
+volumes/
+
+# --- Assignment workflow files (human decision 2026-11-04: keep local only) ---
+AGENTS.md
+WORKFLOW.md
+prompts/
+
+# --- OS / editor noise ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
